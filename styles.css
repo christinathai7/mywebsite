@@ -44,21 +44,6 @@ ul {
     padding:100px;
  }
 
- .section2 {
-     style:flex;
-     margin-top: 20px;
-     margin-bottom:70px;
-     display:flex;
-     justify-content: center;
-     align-items: center;
-     
- }
-
- .title2 {
-     font-size: 25px;
-     font-weight: bolder;
- }
-
 
  .title {
      font-size:48px;
@@ -66,6 +51,31 @@ ul {
      color:#F9FAF8;
  }
 
- .info {
-    color:#dddedb;
- }
+
+
+ .title2 {
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937
+    style:flex;
+    margin-bottom:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+  }
+  
+  .info {
+    max-width: 200px; 
+  }
+
+  .text {
+      text-align: center;
+  }
+  
