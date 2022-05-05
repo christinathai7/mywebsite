@@ -79,3 +79,21 @@ ul {
       text-align: center;
   }
   
+
+
+  .section3 {
+      background-color: #E5E7EB;
+      
+  }
+
+  .quote {
+      font-size: 36px;
+      font-style: italic;
+      color: #1F2937;
+      style:flex;
+  }
+
+  .quote2 {
+      font-weight: bold;
+      text-align: right;
+  }
