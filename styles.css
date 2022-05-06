@@ -44,12 +44,12 @@ ul {
     padding:100px;
  }
 
-
  .title {
      font-size:48px;
      font-weight:bolder;
      color:#F9FAF8;
  }
+
 
 
 
@@ -78,12 +78,17 @@ ul {
   .text {
       text-align: center;
   }
+
+  .pics {
+    border-radius: 8px;
+    width:200px;
+    height: 200px;
+  }
   
 
 
   .section3 {
       background-color: #E5E7EB;
-      
   }
 
   .quote {
@@ -96,4 +101,24 @@ ul {
   .quote2 {
       font-weight: bold;
       text-align: right;
+  }
+
+
+
+  .section4 {
+      background-color: #3882F6;
+      color:#F9FAF8;
+      display:flex;
+      justify-content: space-around;
+  }
+
+  .action {
+      font-weight: bold;
+  }
+
+  button {
+      background-color: #3882F6;
+      padding: 2px 20px;
+      color: #E5E7EB;
+      border-radius: 6px;
   }
