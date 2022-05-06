@@ -1,4 +1,4 @@
-.body {
+body {
     display:flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
@@ -20,7 +20,7 @@
     color:#E5E7EB
 }
 
-.logotext {
+.headerleft {
     font-size:24px;
     color:#F9FAF8;
 }
@@ -36,18 +36,30 @@ ul {
 }
 
 
+.top{
+    display:flex;
+    flex-direction: column;
+}
 
  .section1 {
     background-color: #1F2937;
     display:flex;
-    justify-content: space-evenly;
+    flex-shrink: 0;
+    justify-content: center;
     padding:100px;
+    gap: 30px;
  }
+
+ 
 
  .title {
      font-size:48px;
      font-weight:bolder;
      color:#F9FAF8;
+ }
+
+ .subtext {
+     color:#adafb3;
  }
 
 
@@ -109,7 +121,18 @@ ul {
       background-color: #3882F6;
       color:#F9FAF8;
       display:flex;
+      padding:0;
+      height:125px;
+      width:800px;
       justify-content: space-around;
+      align-items: center;
+      border-radius: 6px;
+  }
+
+  .section4container {
+      display: flex;
+      justify-content: center;
+      padding: 50px
   }
 
   .action {
@@ -122,3 +145,4 @@ ul {
       color: #E5E7EB;
       border-radius: 6px;
   }
+
