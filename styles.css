@@ -41,8 +41,8 @@ ul {
     background-color: #1F2937;
     display:flex;
     justify-content: center;
-    padding:100px;
-    gap: 30px;
+    padding:40px;
+    gap: 100px;
  }
 
  .section1left {
@@ -65,14 +65,14 @@ ul {
  }
 
  .mainpic {
-     height:300px;
-     width:500px
+     height: 500px;
+     width: auto;
  }
 
 
 
  .title2 {
-    font-size: 36px;
+    font-size: 45px;
     font-weight:bolder;
     color: #1F2937
     style:flex;
@@ -103,12 +103,31 @@ ul {
     height: 200px;
   }
   
+  .sparkle {
+    width: 50px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
+  .yesno {
+    width: 25px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .project {
+    width:700px;
+    height: auto;
+  }
 
 
   .section3 {
       background-color: #E5E7EB;
   }
+
+  
 
   .quote {
       font-size: 36px;
