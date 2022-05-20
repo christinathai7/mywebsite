@@ -16,9 +16,9 @@
     <div class="headerleft">Welcome to my portfolio!</div>
     <div class="headerright">
         <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
+            <li><a href="#My_Accomplishments">My Accomplishments</a></li>∙
+            <li><a href="#My_Projects">My Projects</a></li>∙
+            <li>Contact Me</li>
         </ul></div>
 </div>
         
@@ -32,11 +32,11 @@
     <div class="section1right">
         <img class="mainpic" src="./images/profilepic.jpeg"></div>
 </div>
-x   
+
  
         
         <div class="section2">
-            <div class="title2"><img src ="./images/sparkle.png" class="sparkle"> My Accomplishments <img src ="./images/sparkle.png" class="sparkle"></div>
+            <div class="title2"><img src ="./images/sparkle.png" class="sparkle"><a id="My_Accomplishments"> My Accomplishments </a><img src ="./images/sparkle.png" class="sparkle"></div>
         
             <div class="container">
             <div class="info">
@@ -49,7 +49,7 @@ x
             </div>
             <div class="info">
                 <img src="./images/linechart.png" class="pics">
-                <div class="text"><b>Created dashboards to track key metrics</b><p>This allowed the surgery center to easily track their progress towards accreditation.</div>
+                <div class="text"><b>Created dashboards to track key metrics</b><p>This allowed the NICU, L&D, MICC, and ambulatory surgery center to easily track their progress towards accreditation.</div>
             </div>
             <div class="info">
                 <img src="./images/pic.jpeg" class="pics">
@@ -59,22 +59,25 @@ x
         </div>
 
 
-        <div class="title2"><img src ="./images/computer.png" class="sparkle"> My Projects <img src ="./images/np.png" class="sparkle"></div>
+        <div class="title2"><a id="My_Projects"><img src ="./images/computer.png" class="sparkle"> My Projects <img src ="./images/np.png" class="sparkle"></a></div>
         <div class="section1">
             
             <div class="section1left">
                 <div class="title">Pre-term infant diet calculator</div>
-                <div class="subtext">Diets (i.e. caloric & micronutrient intake) is everything in NICU! Pre-term infant diets are calculated based on the baby's weight and anemic status. 
+                <div class="subtext">Diets (i.e. caloric & micronutrient intake) are everything in the NICU! Pre-term infant diets are calculated based on the baby's weight and anemic status. 
                     
                     <p><b>Before my project:</b></p>
-                    <p><img src="./images/no.png" class="yesno">These calculations were done manually which made them very <u>time-consuming</u> and <u>error-prone.</u></p>
-                    <p><img src="./images/no.png" class="yesno">It was one dietitian's full-time job to do all these calculations.</p>
-                    <p><img src="./images/no.png" class="yesno">The incorrect calculations led to suboptimal nutrition for our babies!</p>
-                    <p>So I created a pre-term infant diet calculator in Excel. I included a macro button to screenshot the results so it can be seamlessly pasted into the patient's chart.</p>
+                    <p><img src="./images/no.png" class="yesno">These calculations were done manually which made them very <u>time-consuming</u> and <u>expensive;</u> it was one dietitian's full-time job to solely calculate all our NICU babies' diets by hand.</p>
+                    <p><img src="./images/no.png" class="yesno">The calculations were often <u>incorrect</u> which led to suboptimal nutrition for our babies!</p>
+                    <p><img src="./images/no.png" class="yesno">The results were a pain to summarize in a note so they were <u>rarely charted, leaving the rest of the care team in the dark.</u></p>
+                    
+                    <p>So I created a pre-term infant diet calculator in Excel.</p> 
                     
                     <p><b>Results of my project:</b></p>
-                    <p><img src="./images/yes.png" class="yesno">My calculator saved the unit <u>40 hours of work a week (or $50,000 annually)</u>.</p>
-                    <p><img src="./images/yes.png" class="yesno">Our pre-term infants were getting the proper nutrition they needed which led to <u>better clinical outcomes!</u></p></div>
+                    <p><img src="./images/yes.png" class="yesno">My calculator <u>saved the unit 40 hours of work a week (or $50,000 annually)</u>.</p>
+                    <p><img src="./images/yes.png" class="yesno">Our pre-term infants were getting the proper nutrition they needed which led to <u>better clinical outcomes!</u></p>
+                    <p><img src="./images/yes.png" class="yesno">The macro button that screenshotted the results can be easily <u>pasted into the patient's chart where the whole care team can see.</u></p>
+                </div>
                 </div>
             <div class="section1right">
                 <img class="project" src="./images/diet.png"></div>
@@ -85,8 +88,20 @@ x
             
             <div class="section1left">
                 <div class="title">Milk lab relational database</div>
-                <div class="subtext">Breast milk is vital to NICU babies because it contains white blood cells and antibodies made by mom to help protect against bacteria and viruses. For this reason, it commonly is referred to as "liquid gold." 
-                    <p></div>
+                <div class="subtext">Did you know breast milk contains white blood cells and antibodies made by mom for the baby to fight against bacteria and viruses? This is why it is commonly referred to as "liquid gold" and why breast milk is so vital for NICU babies! 
+                    <p>When mom drops off her milk at the NICU, each bottle is labeled with the corresponding baby's info and the date & time it was pumped before we store it in the fridge or freezer. This ensures that later when the milk gets thawed, it goes to the right baby and it's not expired.</p>
+                    <p><b>Before my project:</b></p>
+                    <p><img src="./images/no.png" class="yesno">There was <u>no centralized system</u> to inventory the milk. IT tried to help but they gave us <u>incomplete solutions.</u> As a result, the bottles were haphazardly recorded in 2 different paper logs and in the EHR. </p>
+                    <p><img src="./images/no.png" class="yesno">Our <u>nurses were overburden</u> with the extra responsibility of checking the freezer for expired milk.</u></p>
+                    <p><img src="./images/no.png" class="yesno">As a consequence, <u>lots of breast milk had expired</u> because <u>we were unaware of the expiry date.</u></p>
+
+                    <p>So I created a milk lab relational database in Access.</p> 
+                    
+                    <p><b>Results of my project:</b></p>
+                    <p><img src="./images/yes.png" class="yesno">My database provided <u>centralized & effective system</u> to track our milk inventory. We were now able to track which bottles were soon-to-be-expired, their location (fridge or freezer), as well as the trend of mom's milk supply.</p>
+                    <p><img src="./images/yes.png" class="yesno">Our nurses had more time to provide patient care which led to <u>better clinical outcomes.</u></p>
+                    <p><img src="./images/yes.png" class="yesno"><u>NO MORE WASTED BREAST MILK FOR OUR CRITICALLY-ILL AND PRE-TERM BABIES!!!</u></p>
+                </div>
                 </div>
             <div class="section1right">
                 <img class="project" src="./images/milk.png"></div>

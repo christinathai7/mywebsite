@@ -4,6 +4,26 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* unvisited link */
+a:link {
+  color: #E5E7EB;
+}
+
+/* visited link */
+a:visited {
+  color: #E5E7EB;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 .header, .footer, .section1, .section2, .section3, .section4, .section5 {
     padding:100px
     }
@@ -82,13 +102,13 @@ ul {
     align-items: center;
 }
 
- .container {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap: 52px;
-  }
-  
+.container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
   .info {
     max-width: 200px; 
   }
