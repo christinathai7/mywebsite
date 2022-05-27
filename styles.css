@@ -101,8 +101,7 @@ ul {
 .title2 {
   font-size: 45px;
   font-weight:bolder;
-  color: #1F2937
-  style:flex;
+  color: #1F2937;
   margin-bottom:70px;
   display:flex;
   justify-content: center;
@@ -122,6 +121,11 @@ gap: 52px;
 
 .achievements {
     text-align: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
 }
 
 .pics {
@@ -150,12 +154,13 @@ gap: 52px;
 
 .skills {
   display: flex; 
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   padding: 100px;
-  
   background-color: lightgray;
 }
+
+
 
 .cell {
   flex-grow: 0.25;
